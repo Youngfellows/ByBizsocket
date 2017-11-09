@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="显示本机ip信息"/>
+
+    <EditText
+        android:id="@+id/edt_tv_pi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/shape_edt"
+        android:digits="0123456789."
+        android:hint="设置TV端IP地址"
+        android:inputType="number"
+        android:maxLength="15"/>
+
+    <EditText
+        android:id="@+id/edt_tv_port"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/shape_edt"
+        android:hint="设置端口号"
+        android:inputType="number"
+        android:maxLength="5"/>
+
+    <Button
+        android:id="@+id/btn_connect_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="连接TV段"/>
+
+
+    <EditText
+        android:id="@+id/edt_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/shape_edt"
+        android:hint="发送的内容"/>
+
+    <Button
+        android:id="@+id/btn_send_voice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="发送到服务端"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_receive_server"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

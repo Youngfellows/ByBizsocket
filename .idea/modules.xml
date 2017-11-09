@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ByronBizsocket.iml" filepath="$PROJECT_DIR$/ByronBizsocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bizsocket/bizsocket.iml" filepath="$PROJECT_DIR$/bizsocket/bizsocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/socket_client/socket_client.iml" filepath="$PROJECT_DIR$/socket_client/socket_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/socket_servier/socket_servier.iml" filepath="$PROJECT_DIR$/socket_servier/socket_servier.iml" />
+    </modules>
+  </component>
+</project>
